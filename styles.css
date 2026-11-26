@@ -566,6 +566,29 @@ body.sidebar-open {
   width: min(100% - 40px, 1100px);
   margin: 0 auto;
   padding: clamp(36px, 7vw, 72px) 0;
+  animation: app-content-enter 140ms ease-out both;
+}
+
+@keyframes app-content-enter {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes app-content-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .app-main h1 {
@@ -780,7 +803,11 @@ body.sidebar-open {
   .app-sidebar,
   .sidebar-header,
   .app-nav a,
-  .nav-label,
+  .nav-label {
+    transition-duration: 150ms !important;
+    transition-delay: 0s !important;
+  }
+
   .sidebar-backdrop {
     transition-duration: 150ms, 0s !important;
     transition-delay: 0s, 150ms !important;
@@ -788,5 +815,10 @@ body.sidebar-open {
 
   .sidebar-open .sidebar-backdrop {
     transition-delay: 0s !important;
+  }
+
+  .app-main {
+    animation-name: app-content-fade;
+    animation-duration: 120ms;
   }
 }

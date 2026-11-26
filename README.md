@@ -25,8 +25,7 @@ Não é necessário instalar dependências nem executar uma etapa de build. Abra
 ├── index.html
 ├── cadastro.html
 ├── styles.css
-├── script.js
-├── sidebar-preload.js
+├── sidebar.js
 ├── assets/
 │   ├── icons/
 │   │   └── logo.svg
@@ -41,4 +40,4 @@ Não é necessário instalar dependências nem executar uma etapa de build. Abra
 
 ## Navegação
 
-As páginas em `app/` compartilham a folha de estilos `styles.css` e o comportamento do menu lateral em `script.js`. O menu pode ser recolhido no desktop e aberto como painel em telas menores. A preferência de recolhimento é guardada no armazenamento local do navegador.
+As páginas em `app/` compartilham a folha de estilos `styles.css` e o comportamento do menu lateral em `sidebar.js`. O menu pode ser recolhido no desktop e aberto como painel em telas menores. A preferência de recolhimento é guardada no armazenamento local do navegador.
