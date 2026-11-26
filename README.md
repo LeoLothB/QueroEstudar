@@ -11,6 +11,7 @@ Protótipo de uma plataforma para ajudar estudantes a organizar a rotina acadêm
 - **Horários** (`app/horarios.html`): espaço reservado para a grade de aulas.
 - **Anotações** (`app/anotacoes.html`): espaço reservado para notas de estudo.
 - **Biblioteca** (`app/biblioteca.html`): espaço reservado para materiais.
+- **Configurações** (`app/configuracoes.html`): página para preferências e saída para a tela de entrada.
 
 O projeto ainda não tem back-end: os formulários não autenticam usuários e as páginas de estudo ainda não salvam dados.
 
@@ -35,7 +36,8 @@ Não é necessário instalar dependências nem executar uma etapa de build. Abra
     ├── calendario.html
     ├── horarios.html
     ├── anotacoes.html
-    └── biblioteca.html
+    ├── biblioteca.html
+    └── configuracoes.html
 ```
 
 ## Navegação

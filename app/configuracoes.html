@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#100e0c">
+  <title>Configurações · QueroEstudar</title>
+  <script src="../sidebar.js"></script>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="app-sidebar" id="app-sidebar" aria-label="Menu principal">
+      <div class="sidebar-header">
+        <button class="sidebar-toggle sidebar-toggle--sidebar" type="button" data-sidebar-toggle aria-controls="app-sidebar" aria-expanded="true" aria-label="Recolher menu" title="Recolher menu">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <nav class="app-nav" aria-label="Navegação principal">
+        <a href="dashboard.html" aria-label="Início" title="Início"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3 10 9-7 9 7v9a2 2 0 0 1-2 2h-4v-6H9v6H5a2 2 0 0 1-2-2v-9Z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nav-label">Início</span></a>
+        <a href="calendario.html" aria-label="Calendário" title="Calendário"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15.5" rx="2.5" stroke="currentColor" stroke-width="1.7"/><path d="M7.5 3.5v3M16.5 3.5v3M3.5 9.5h17M8 13h3M8 16.5h2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span class="nav-label">Calendário</span></a>
+        <a href="horarios.html" aria-label="Horários de aula" title="Horários de aula"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 19.5h16M5.5 19.5V6.25L12 3l6.5 3.25V19.5M9 19.5v-5h6v5M8 8h.01M12 8h.01M16 8h.01" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="nav-label">Horários</span></a>
+        <a href="anotacoes.html" aria-label="Anotações" title="Anotações"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 3.75h8l4 4v12.5H6a2 2 0 0 1-2-2v-12.5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M14 4v4h4M8 12h8M8 15.5h6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span class="nav-label">Anotações</span></a>
+        <a href="biblioteca.html" aria-label="Biblioteca de materiais" title="Biblioteca de materiais"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7.25A2.25 2.25 0 0 1 6.25 5h4l2 2h5.5A2.25 2.25 0 0 1 20 9.25v8.5A2.25 2.25 0 0 1 17.75 20h-11A2.25 2.25 0 0 1 4.5 17.75L4 7.25Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg><span class="nav-label">Biblioteca</span></a>
+      </nav>
+      <div class="sidebar-footer">
+        <nav class="app-nav" aria-label="Configurações">
+          <a href="configuracoes.html" aria-current="page" aria-label="Configurações" title="Configurações"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.09a2 2 0 0 1 1 1.73v.51a2 2 0 0 1-1 1.74l-.15.08a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.08a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/></svg><span class="nav-label">Configurações</span></a>
+        </nav>
+      </div>
+    </aside>
+    <button class="sidebar-backdrop" type="button" aria-label="Fechar menu"></button>
+    <div class="app-content">
+      <header class="app-topbar">
+        <button class="sidebar-toggle sidebar-toggle--mobile" type="button" data-sidebar-toggle aria-controls="app-sidebar" aria-expanded="true" aria-label="Recolher menu">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+        <span class="app-topbar-title">Configurações</span>
+      </header>
+      <main class="app-main">
+        <h1>Configurações</h1>
+        <p>Personalize suas preferências de conta e do aplicativo.</p>
+        <section class="settings-section" aria-labelledby="account-section-title">
+          <h2 id="account-section-title">Conta</h2>
+          <div class="settings-account-row">
+            <div class="settings-account-copy">
+              <h3>Sair da conta</h3>
+              <p>Volte para a tela de entrada do QueroEstudar.</p>
+            </div>
+            <a class="logout-link" href="../index.html">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M10 17l5-5-5-5M15 12H3M12 3h6a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Sair
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
